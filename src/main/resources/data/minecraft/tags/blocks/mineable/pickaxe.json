@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:beloved_ore",
+    "tutorialmod:beloved_block",
+    "tutorialmod:deepslate_beloved_ore"
+  ]
+}

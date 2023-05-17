@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 75,
+  "experience": 1,
+  "group": "tutorialmod:beloved_ore",
+  "ingredient": {
+    "item": "tutorialmod:beloved_ore"
+  },
+  "result": "tutorialmod:my_beloved"
+}

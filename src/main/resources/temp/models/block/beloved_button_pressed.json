@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft/button_pressed",
+  "textures": {
+    "texture": "tutorialmod/beloved_planks"
+  }
+}
