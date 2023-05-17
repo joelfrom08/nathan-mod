@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 1,
+  "group": "tutorialmod:beloved_ore",
+  "ingredient": {
+    "item": "tutorialmod:raw_beloved_ore"
+  },
+  "result": "tutorialmod:my_beloved"
+}

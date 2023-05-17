@@ -1,0 +1,19 @@
+{
+  "item.tutorialmod.my_beloved": "Nathan, mein geliebter <3",
+  "item.tutorialmod.my_beloved_2": "SEID SIMPS FÜR NATHAN",
+  "item.tutorialmod.raw_beloved_ore": "Rohes Nathanerz",
+  "item.tutorialmod.raw_beloved_ore_2": "Rohes Heißes Nathanerz",
+
+  "block.tutorialmod.beloved_block": "Nathanblock",
+  "block.tutorialmod.deepslate_beloved_ore": "Tiefenschiefernathanerz",
+  "block.tutorialmod.beloved_ore": "Nathanerz",
+  "block.tutorialmod.beloved_block_2": "Heißer Nathanblock",
+  "block.tutorialmod.deepslate_beloved_ore_2": "Heißes Tiefenschiefernathanerz",
+  "block.tutorialmod.beloved_ore_2": "Heißes Nathanerz",
+  "block.tutorialmod.beloved_flower": "Nathanblume",
+  "block.tutorialmod.potted_beloved_flower": "Topfnathanblume",
+  "block.tutorialmod:raw_beloved_ore_block": "Roher Nathanblock",
+  "block.tutorialmod.raw_beloved_ore_2_block": "Roher Heißer Nathanblock",
+
+  "itemgroup.nathan": "Nathan <3"
+}

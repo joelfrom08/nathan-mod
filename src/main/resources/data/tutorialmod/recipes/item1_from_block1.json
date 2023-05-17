@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tutorialmod:beloved_block"
+    }
+  ],
+  "result": {
+    "item": "tutorialmod:my_beloved",
+    "count": 9
+  }
+}

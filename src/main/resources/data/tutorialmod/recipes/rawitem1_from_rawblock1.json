@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tutorialmod:raw_beloved_ore_block"
+    }
+  ],
+  "result": {
+    "item": "tutorialmod:raw_beloved_ore",
+    "count": 9
+  }
+}
