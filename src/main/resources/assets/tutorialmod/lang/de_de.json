@@ -12,8 +12,22 @@
   "block.tutorialmod.beloved_ore_2": "Heißes Nathanerz",
   "block.tutorialmod.beloved_flower": "Nathanblume",
   "block.tutorialmod.potted_beloved_flower": "Topfnathanblume",
-  "block.tutorialmod:raw_beloved_ore_block": "Roher Nathanblock",
+  "block.tutorialmod.raw_beloved_ore_block": "Roher Nathanblock",
   "block.tutorialmod.raw_beloved_ore_2_block": "Roher Heißer Nathanblock",
+
+  "block.tutorialmod.beloved_log": "Nathanstamm",
+  "block.tutorialmod.beloved_wood": "Nathanholz",
+  "block.tutorialmod.stripped_beloved_log": "Entrindeter Nathanstamm",
+  "block.tutorialmod.stripped_beloved_wood": "Entrindetes Nathanholz",
+  "block.tutorialmod.beloved_planks": "Nathanholzbretter",
+  "block.tutorialmod.beloved_button": "Nathanholzknopf",
+  "block.tutorialmod.beloved_door": "Nathanholztür",
+  "block.tutorialmod.beloved_stairs": "Nathanholztreppe",
+  "block.tutorialmod.beloved_slab": "Nathanholzstufe",
+  "block.tutorialmod.beloved_trapdoor": "Nathanholzfalltür",
+  "block.tutorialmod.beloved_fence": "Nathanholzzaun",
+  "block.tutorialmod.beloved_fence_gate": "Nathanholzzauntor",
+  "block.tutorialmod.beloved_pressure_plate": "Nathanholzdruckplatte",
 
   "itemgroup.nathan": "Nathan <3"
 }

@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft/button_inventory",
-  "textures": {
-    "texture": "tutorialmod/beloved_planks"
-  }
-}
