@@ -29,5 +29,8 @@
   "block.tutorialmod.beloved_fence_gate": "Nathanholzzauntor",
   "block.tutorialmod.beloved_pressure_plate": "Nathanholzdruckplatte",
 
+  "block.tutorialmod.beloved_leaves": "Nathanblätter",
+  "block.tutorialmod.beloved_sapling": "Nathansetzling",
+
   "itemgroup.nathan": "Nathan <3"
 }

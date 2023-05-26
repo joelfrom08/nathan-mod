@@ -3,6 +3,11 @@
   "values": [
     "tutorialmod:beloved_ore",
     "tutorialmod:beloved_block",
-    "tutorialmod:deepslate_beloved_ore"
+    "tutorialmod:deepslate_beloved_ore",
+    "tutorialmod:beloved_block_2",
+    "tutorialmod:beloved_ore_2",
+    "tutorialmod:deepslate_beloved_ore_2",
+    "tutorialmod:raw_beloved_ore_block",
+    "tutorialmod:raw_beloved_ore_2_block"
   ]
 }

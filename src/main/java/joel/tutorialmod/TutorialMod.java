@@ -1,10 +1,15 @@
 package joel.tutorialmod;
 
 import joel.tutorialmod.block.ModBlocks;
+import joel.tutorialmod.block.ModFlammableBlockRegistry;
 import joel.tutorialmod.item.ModItemGroup;
 import joel.tutorialmod.item.ModItems;
+import joel.tutorialmod.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
+import net.fabricmc.fabric.api.registry.FuelRegistry;
+import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,5 +30,11 @@ public class TutorialMod implements ModInitializer {
         LOGGER.info("Hello Fabric world!");
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
+        ModWorldGeneration.generateModWorldGen();
+
+        ModFlammableBlockRegistry.registerFlammableBlocks();
+        StrippableBlockRegistry.register(ModBlocks.NATHAN_LOG, ModBlocks.STRIPPED_NATHAN_LOG);
+        StrippableBlockRegistry.register(ModBlocks.NATHAN_WOOD, ModBlocks.STRIPPED_NATHAN_WOOD);
+
     }
 }

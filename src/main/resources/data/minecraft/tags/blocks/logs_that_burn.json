@@ -1,5 +1,8 @@
 {
   "values": [
-    "#tutorialmod:beloved_logs"
+    "tutorialmod:beloved_log",
+    "tutorialmod:beloved_wood",
+    "tutorialmod:stripped_beloved_log",
+    "tutorialmod:stripped_beloved_wood"
   ]
 }

@@ -1,6 +1,18 @@
 {
   "replace": false,
   "values": [
-
+    "tutorialmod:beloved_planks",
+    "tutorialmod:beloved_wood",
+    "tutorialmod:beloved_log",
+    "tutorialmod:stripped_beloved_wood",
+    "tutorialmod:stripped_beloved_log",
+    "tutorialmod:beloved_door",
+    "tutorialmod:beloved_trapdoor",
+    "tutorialmod:beloved_button",
+    "tutorialmod:beloved_fence",
+    "tutorialmod:beloved_fence_gate",
+    "tutorialmod:beloved_slab",
+    "tutorialmod:beloved_stairs",
+    "tutorialmod:beloved_pressure_plate"
   ]
 }

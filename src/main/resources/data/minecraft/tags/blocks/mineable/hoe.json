@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-
+    "tutorialmod:beloved_flower",
+    "tutorialmod:beloved_leaves",
+    "tutorialmod:beloved_sapling"
   ]
 }
