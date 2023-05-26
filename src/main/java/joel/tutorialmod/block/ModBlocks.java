@@ -5,6 +5,7 @@ import joel.tutorialmod.TutorialModClient;
 import joel.tutorialmod.block.custom.ModPressurePlateBlock;
 import joel.tutorialmod.item.ModItemGroup;
 import joel.tutorialmod.item.ModItems;
+import joel.tutorialmod.world.tree.NathanSaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -42,7 +43,7 @@ public class ModBlocks {
             new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(1.0f).requiresTool(), UniformIntProvider.create(555, 555)), ModItemGroup.NATHAN);
     public static final Block NATHAN_FLOWER = registerBlock("beloved_flower",
             new FlowerBlock(StatusEffects.RESISTANCE, 120,
-                    FabricBlockSettings.copy(Blocks.DANDELION).strength(4.0f).nonOpaque()), ModItemGroup.NATHAN);
+                    FabricBlockSettings.copy(Blocks.DANDELION).strength(0.1f).nonOpaque()), ModItemGroup.NATHAN);
 
     public static final Block POTTED_NATHAN_FLOWER = registerBlockWithoutBlockItem("potted_beloved_flower",
             new FlowerPotBlock(ModBlocks.NATHAN_FLOWER,
@@ -53,15 +54,20 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).strength(1.0f).requiresTool().luminance(20)), ModItemGroup.NATHAN);
 
     public static final Block NATHAN_LOG = registerBlock("beloved_log",
-            new PillarBlock(FabricBlockSettings.of(Material.WOOD).strength(1.0f).requiresTool()), ModItemGroup.NATHAN);
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(1.0f)), ModItemGroup.NATHAN);
     public static final Block NATHAN_WOOD = registerBlock("beloved_wood",
-            new PillarBlock(FabricBlockSettings.of(Material.WOOD).strength(1.0f).requiresTool()), ModItemGroup.NATHAN);
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).strength(1.0f)), ModItemGroup.NATHAN);
     public static final Block STRIPPED_NATHAN_LOG = registerBlock("stripped_beloved_log",
-            new PillarBlock(FabricBlockSettings.of(Material.WOOD).strength(1.0f).requiresTool()), ModItemGroup.NATHAN);
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG).strength(1.0f)), ModItemGroup.NATHAN);
     public static final Block STRIPPED_NATHAN_WOOD = registerBlock("stripped_beloved_wood",
-            new PillarBlock(FabricBlockSettings.of(Material.WOOD).strength(1.0f).requiresTool()), ModItemGroup.NATHAN);
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD).strength(1.0f)), ModItemGroup.NATHAN);
     public static final Block NATHAN_PLANKS = registerBlock("beloved_planks",
-            new Block(FabricBlockSettings.of(Material.WOOD).strength(1.0f).requiresTool()), ModItemGroup.NATHAN);
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(1.0f)), ModItemGroup.NATHAN);
+    public static final Block NATHAN_LEAVES = registerBlock("beloved_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(0.3f)), ModItemGroup.NATHAN);
+
+    public static final Block NATHAN_SAPLING = registerBlock("beloved_sapling",
+            new SaplingBlock(new NathanSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(0.3f)), ModItemGroup.NATHAN);
 
     public static final Block NATHAN_BUTTON = registerBlock("beloved_button",
             new ButtonBlock(AbstractBlock.Settings.of(Material.DECORATION).noCollision().strength(0.5f).sounds(BlockSoundGroup.WOOD),
