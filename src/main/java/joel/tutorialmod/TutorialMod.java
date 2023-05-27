@@ -4,6 +4,7 @@ import joel.tutorialmod.block.ModBlocks;
 import joel.tutorialmod.block.ModFlammableBlockRegistry;
 import joel.tutorialmod.item.ModItemGroup;
 import joel.tutorialmod.item.ModItems;
+import joel.tutorialmod.registries.ModRegistries;
 import joel.tutorialmod.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
@@ -31,6 +32,7 @@ public class TutorialMod implements ModInitializer {
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
         ModWorldGeneration.generateModWorldGen();
+        ModRegistries.registerModFuels();
 
         ModFlammableBlockRegistry.registerFlammableBlocks();
         StrippableBlockRegistry.register(ModBlocks.NATHAN_LOG, ModBlocks.STRIPPED_NATHAN_LOG);
