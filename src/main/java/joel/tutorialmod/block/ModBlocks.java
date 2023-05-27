@@ -23,7 +23,6 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.structure.StrongholdGenerator;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.SignType;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 import javax.naming.ldap.PagedResultsControl;
@@ -54,27 +53,27 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).strength(1.0f).requiresTool().luminance(20)), ModItemGroup.NATHAN);
 
     public static final Block NATHAN_LOG = registerBlock("beloved_log",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(1.0f)), ModItemGroup.NATHAN);
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_LOG).strength(1.0f)), ModItemGroup.NATHAN);
     public static final Block NATHAN_WOOD = registerBlock("beloved_wood",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).strength(1.0f)), ModItemGroup.NATHAN);
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_WOOD).strength(1.0f)), ModItemGroup.NATHAN);
     public static final Block STRIPPED_NATHAN_LOG = registerBlock("stripped_beloved_log",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG).strength(1.0f)), ModItemGroup.NATHAN);
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_CHERRY_LOG).strength(1.0f)), ModItemGroup.NATHAN);
     public static final Block STRIPPED_NATHAN_WOOD = registerBlock("stripped_beloved_wood",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD).strength(1.0f)), ModItemGroup.NATHAN);
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_CHERRY_WOOD).strength(1.0f)), ModItemGroup.NATHAN);
     public static final Block NATHAN_PLANKS = registerBlock("beloved_planks",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(1.0f)), ModItemGroup.NATHAN);
+            new Block(FabricBlockSettings.copyOf(Blocks.CHERRY_PLANKS).strength(1.0f)), ModItemGroup.NATHAN);
     public static final Block NATHAN_LEAVES = registerBlock("beloved_leaves",
-            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(0.3f)), ModItemGroup.NATHAN);
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_LEAVES).strength(0.3f)), ModItemGroup.NATHAN);
 
     public static final Block NATHAN_SAPLING = registerBlock("beloved_sapling",
-            new SaplingBlock(new NathanSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(0.3f)), ModItemGroup.NATHAN);
+            new SaplingBlock(new NathanSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.CHERRY_SAPLING).strength(0.3f)), ModItemGroup.NATHAN);
 
     public static final Block NATHAN_BUTTON = registerBlock("beloved_button",
             new ButtonBlock(AbstractBlock.Settings.of(Material.DECORATION).noCollision().strength(0.5f).sounds(BlockSoundGroup.WOOD),
-                    30, true, SoundEvents.BLOCK_WOODEN_BUTTON_CLICK_OFF, SoundEvents.BLOCK_WOODEN_BUTTON_CLICK_ON), ModItemGroup.NATHAN);
+                    BlockSetType.CHERRY, 30, true), ModItemGroup.NATHAN);
 
     public static final Block NATHAN_DOOR = registerBlock("beloved_door",
-            new DoorBlock(AbstractBlock.Settings.of(Material.DECORATION).strength(0.5f).nonOpaque(), SoundEvents.BLOCK_WOODEN_DOOR_CLOSE, SoundEvents.BLOCK_WOODEN_DOOR_OPEN), ModItemGroup.NATHAN);
+            new DoorBlock(AbstractBlock.Settings.of(Material.DECORATION).strength(0.5f).nonOpaque(), BlockSetType.CHERRY), ModItemGroup.NATHAN);
 
     public static final Block NATHAN_STAIRS = registerBlock("beloved_stairs",
             new StairsBlock(NATHAN_PLANKS.getDefaultState(), AbstractBlock.Settings.copy(NATHAN_PLANKS)), ModItemGroup.NATHAN);
@@ -83,13 +82,13 @@ public class ModBlocks {
             new SlabBlock(AbstractBlock.Settings.copy(NATHAN_PLANKS)), ModItemGroup.NATHAN);
 
     public static final Block NATHAN_TRAPDOOR = registerBlock("beloved_trapdoor",
-            new TrapdoorBlock(AbstractBlock.Settings.of(Material.DECORATION).strength(0.5f).nonOpaque(), SoundEvents.BLOCK_WOODEN_TRAPDOOR_CLOSE, SoundEvents.BLOCK_WOODEN_TRAPDOOR_OPEN), ModItemGroup.NATHAN);
+            new TrapdoorBlock(AbstractBlock.Settings.of(Material.DECORATION).strength(0.5f).nonOpaque(), BlockSetType.CHERRY), ModItemGroup.NATHAN);
 
     public static final Block NATHAN_FENCE = registerBlock("beloved_fence",
             new FenceBlock(AbstractBlock.Settings.of(Material.DECORATION).strength(0.5f).nonOpaque()), ModItemGroup.NATHAN);
 
     public static final Block NATHAN_FENCE_GATE = registerBlock("beloved_fence_gate",
-            new FenceGateBlock(AbstractBlock.Settings.of(Material.DECORATION).strength(0.5f).nonOpaque(), SoundEvents.BLOCK_FENCE_GATE_CLOSE, SoundEvents.BLOCK_FENCE_GATE_OPEN), ModItemGroup.NATHAN);
+            new FenceGateBlock(AbstractBlock.Settings.of(Material.DECORATION).strength(0.5f).nonOpaque(), WoodType.CHERRY), ModItemGroup.NATHAN);
 
    /* public static final Block NATHAN_SIGN = registerBlock("beloved_sign",
             new SignBlock(FabricBlockSettings.copy(Blocks.ACACIA_SIGN), SignType.ACACIA), ModItemGroup.NATHAN);
@@ -104,7 +103,7 @@ public class ModBlocks {
             new WallHangingSignBlock(FabricBlockSettings.copy(Blocks.ACACIA_WALL_HANGING_SIGN), SignType.ACACIA), ModItemGroup.NATHAN);
 */
     public static final Block NATHAN_PRESSURE_PLATE = registerBlock("beloved_pressure_plate",
-            new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOD).strength(0.5f).noCollision(), SoundEvents.BLOCK_WOODEN_PRESSURE_PLATE_CLICK_OFF, SoundEvents.BLOCK_WOODEN_PRESSURE_PLATE_CLICK_ON),
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOD).strength(0.5f).noCollision(), BlockSetType.CHERRY),
             ModItemGroup.NATHAN);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
