@@ -1,18 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
+  "group": "wooden_stairs",
   "key": {
     "#": {
       "item": "tutorialmod:beloved_planks"
     }
   },
   "pattern": [
-    "#",
-    "##",
+    "#  ",
+    "## ",
     "###"
   ],
   "result": {
-    "item": "tutorialmod:beloved_stairs",
-    "count": 4
+    "count": 4,
+    "item": "tutorialmod:beloved_stairs"
   }
 }

@@ -1,13 +1,11 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "redstone",
-  "key": {
-    "#": {
+  "group": "wooden_button",
+  "ingredients": [
+    {
       "item": "tutorialmod:beloved_planks"
     }
-  },
-  "pattern": [
-    "#"
   ],
   "result": {
     "item": "tutorialmod:beloved_button"
