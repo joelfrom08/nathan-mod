@@ -1,3 +1,7 @@
-// 1.19.3	2023-05-27T20:09:28.6034309	Tutorial Mod/tutorialmod
+// 1.19.3	2023-05-27T21:46:16.5760738	Tutorial Mod/tutorialmod
+14583090af2dbd8af876fc1bc70427d5352df912 data\tutorialmod\worldgen\placed_feature\nathan_ore_two_placed.json
 d1376154d2c3d38db1c677caa9489a3c3600392b data\tutorialmod\worldgen\configured_feature\nathan_tree.json
 0c31cddaaab7ceceef8de39fb56db6b6d50ea9ac data\tutorialmod\worldgen\placed_feature\nathan_tree_placed.json
+2f6a6725fdf9269e539aec302c5322ad300035ef data\tutorialmod\worldgen\configured_feature\nathan_ore_two.json
+a2b998938ec6cf289acf48c178eb214b4b12105f data\tutorialmod\worldgen\placed_feature\nathan_ore_placed.json
+6f510c88a0d9d014ea8df6d61ea600408e9f0ed4 data\tutorialmod\worldgen\configured_feature\nathan_ore.json
