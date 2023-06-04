@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "particle": "tutorialmod:block/beloved_dirt",
+    "bottom": "tutorialmod:block/beloved_dirt",
+    "top": "tutorialmod:block/beloved_grass_block_top",
+    "side": "tutorialmod:block/beloved_grass_block_side"
+  }
+}

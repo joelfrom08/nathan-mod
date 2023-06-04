@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "tutorialmod:block/beloved_deepslate_tiles",
+    "side": "tutorialmod:block/beloved_deepslate_tiles",
+    "top": "tutorialmod:block/beloved_deepslate_tiles"
+  }
+}

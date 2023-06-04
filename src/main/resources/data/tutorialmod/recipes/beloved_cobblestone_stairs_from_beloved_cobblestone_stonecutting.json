@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "tutorialmod:beloved_cobblestone"
+  },
+  "result": "tutorialmod:beloved_cobblestone_stairs"
+}

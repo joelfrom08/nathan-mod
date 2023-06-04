@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 1,
+  "ingredient": {
+    "item": "tutorialmod:beloved_stone_bricks"
+  },
+  "result": "tutorialmod:cracked_beloved_stone_bricks"
+}

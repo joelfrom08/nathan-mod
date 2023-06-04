@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-
+    "tutorialomd:beloved_dirt",
+    "tutorialmod:beloved_grass_block",
+    "tutorialmod:beloved_dirt_path"
   ]
 }

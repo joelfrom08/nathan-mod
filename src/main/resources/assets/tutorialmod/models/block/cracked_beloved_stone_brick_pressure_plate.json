@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_up",
+  "textures": {
+    "texture": "tutorialmod:block/cracked_beloved_stone_bricks"
+  }
+}

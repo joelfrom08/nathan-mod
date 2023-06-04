@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "tutorialmod:beloved_stone"
+  },
+  "result": "tutorialmod:beloved_stone_slab"
+}

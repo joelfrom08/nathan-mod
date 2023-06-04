@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 9,
+  "ingredient": {
+    "item": "tutorialmod:beloved_deepslate_tiles"
+  },
+  "result": "tutorialmod:cracked_beloved_deepslate_tile_button"
+}

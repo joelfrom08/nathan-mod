@@ -4,8 +4,10 @@ import joel.tutorialmod.TutorialMod;
 import joel.tutorialmod.item.custom.ModAxeItem;
 import joel.tutorialmod.item.custom.ModHoeItem;
 import joel.tutorialmod.item.custom.ModPickaxeItem;
+import joel.tutorialmod.item.custom.ModShovelItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.entity.vehicle.BoatEntity;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -28,7 +30,7 @@ public class ModItems {
     public static final Item NATHAN_AXE = registerItem("beloved_axe",
             new ModAxeItem(ModToolMaterials.NATHAN, 2, 2f, new FabricItemSettings()));
     public static final Item NATHAN_SHOVEL = registerItem("beloved_shovel",
-            new ShovelItem(ModToolMaterials.NATHAN, 0, 0.2f, new FabricItemSettings()));
+            new ModShovelItem(ModToolMaterials.NATHAN, 0, 0.2f, new FabricItemSettings()));
     public static final Item NATHAN_HOE = registerItem("beloved_hoe",
             new ModHoeItem(ModToolMaterials.NATHAN, 0, 0.2f, new FabricItemSettings()));
 

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tutorialmod:block/beloved_stone_slab"
+    },
+    "type=double": {
+      "model": "tutorialmod:block/beloved_stone"
+    },
+    "type=top": {
+      "model": "tutorialmod:block/beloved_stone_slab_top"
+    }
+  }
+}

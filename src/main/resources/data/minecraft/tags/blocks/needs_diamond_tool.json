@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "tutorialmod:beloved_block"
+    "tutorialmod:beloved_block",
+    "tutorialmod:beloved_block_2",
+    "tutorialmod:raw_beloved_ore_block",
+    "tutorialmod:raw_beloved_ore_2_block"
   ]
 }

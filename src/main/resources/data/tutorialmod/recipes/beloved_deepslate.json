@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 1,
+  "ingredient": {
+    "item": "tutorialmod:cobbled_beloved_deepslate"
+  },
+  "result": "tutorialmod:cobbled_beloved_deepslate"
+}
