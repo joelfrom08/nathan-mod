@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tutorialmod:block/beloved_dirt_path"
+      },
+      {
+        "model": "tutorialmod:block/beloved_dirt_path",
+        "y": 90
+      },
+      {
+        "model": "tutorialmod:block/beloved_dirt_path",
+        "y": 180
+      },
+      {
+        "model": "tutorialmod:block/beloved_dirt_path",
+        "y": 270
+      }
+    ]
+  }
+}

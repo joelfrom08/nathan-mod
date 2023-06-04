@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 1,
+  "ingredient": {
+    "item": "tutorialmod:beloved_cobblestone"
+  },
+  "result": "tutorialmod:beloved_stone"
+}

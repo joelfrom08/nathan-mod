@@ -1,14 +1,29 @@
 {
-  "type": "minecraft_block",
+  "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "tutorialmod:beloved_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ],
           "name": "tutorialmod:beloved_door"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
   ]
 }

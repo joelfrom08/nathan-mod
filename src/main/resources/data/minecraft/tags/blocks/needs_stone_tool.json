@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-
+    "tutorialmod:beloved_stone",
+    "tutorialmod:beloved_deepslate"
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tutorialmod:block/beloved_cobblestone_slab"
+    },
+    "type=double": {
+      "model": "tutorialmod:block/beloved_cobblestone"
+    },
+    "type=top": {
+      "model": "tutorialmod:block/beloved_cobblestone_slab_top"
+    }
+  }
+}

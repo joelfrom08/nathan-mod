@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "tutorialmod:block/cracked_beloved_deepslate_tiles"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "tutorialmod:beloved_deepslate_slab"
+    }
+  },
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "result": {
+    "item": "tutorialmod:chiseled_beloved_deepslate"
+  }
+}

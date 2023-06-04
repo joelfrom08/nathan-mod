@@ -1,0 +1,14 @@
+{
+  "type": "minecraft_block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tutorialmod:polished_beloved_deepslate_button"
+        }
+      ]
+    }
+  ]
+}

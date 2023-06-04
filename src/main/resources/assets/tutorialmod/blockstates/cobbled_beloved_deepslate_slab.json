@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tutorialmod:block/cobbled_beloved_deepslate_slab"
+    },
+    "type=double": {
+      "model": "tutorialmod:block/cobbled_beloved_deepslate"
+    },
+    "type=top": {
+      "model": "tutorialmod:block/cobbled_beloved_deepslate_slab_top"
+    }
+  }
+}

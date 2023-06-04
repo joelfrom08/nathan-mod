@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 9,
+  "ingredient": {
+    "item": "tutorialmod:cobbled_beloved_deepslate"
+  },
+  "result": "tutorialmod:cobbled_beloved_deepslate_button"
+}

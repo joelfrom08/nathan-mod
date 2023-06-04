@@ -4,7 +4,7 @@
   "cookingtime": 200,
   "experience": 0.15,
   "ingredient": {
-    "tag": "tutorialmod:logs_that_burn"
+    "tag": "tutorialmod:beloved_logs"
   },
   "result": "minecraft:charcoal"
 }

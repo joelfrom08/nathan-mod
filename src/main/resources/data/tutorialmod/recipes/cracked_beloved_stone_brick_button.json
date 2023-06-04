@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "tutorialmod:cracked_beloved_stone_bricks"
+    }
+  },
+  "pattern": [
+    "#"
+  ],
+  "result": {
+    "item": "tutorialmod:cracked_beloved_stone_brick_button"
+  }
+}

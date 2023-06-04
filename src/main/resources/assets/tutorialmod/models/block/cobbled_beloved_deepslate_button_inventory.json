@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "tutorialmod:block/cobbled_beloved_deepslate"
+  }
+}
